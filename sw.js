@@ -1,9 +1,12 @@
-const CACHE = 'tuner-v4';
+const CACHE = 'tuner-v5';
 const ASSETS = [
   './',
   'index.html',
   'manifest.webmanifest',
   'icon.svg',
+  'icon-192.png',
+  'icon-512.png',
+  'apple-touch-icon.png',
 ];
 
 self.addEventListener('install', event => {

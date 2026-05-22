@@ -1,15 +1,17 @@
 {
   "name": "Tuner — Guitar, Bass, Ukulele",
   "short_name": "Tuner",
-  "description": "A clean PWA tuner for guitar, bass, ukulele, and any other instrument via chromatic mode. Supports common and custom tunings.",
+  "description": "A minimal PWA tuner for guitar, bass, and ukulele. Common and custom tunings.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0b0f14",
-  "theme_color": "#0b0f14",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
   "icons": [
-    { "src": "icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any maskable" }
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any maskable" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any maskable" },
+    { "src": "icon.svg",     "type": "image/svg+xml", "sizes": "any", "purpose": "any maskable" }
   ],
   "categories": ["music", "utilities"]
 }
